@@ -11,7 +11,7 @@ tasks:
       yarn add next react react-dom
       yarn add nanoid
       npx tailwindcss init -p
-      echo -e "declare module '*.css'" > global.d.ts
+      echo -e "/// <reference types=\"next\" />\n/// <reference types=\"next/types/global\" />\ndeclare module '*.css'" > next-env.d.ts
 
 vscode:
   extensions:
