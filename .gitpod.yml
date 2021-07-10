@@ -11,6 +11,7 @@ tasks:
       yarn add next react react-dom
       yarn add nanoid
       npx tailwindcss init -p
+    command: yarn run dev
 
 vscode:
   extensions:
