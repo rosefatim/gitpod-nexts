@@ -10,9 +10,7 @@ tasks:
       yarn add -D postcss@latest tailwindcss@latest autoprefixer@latest
       yarn add next react react-dom
       yarn add nanoid
-      yarn
-      npx tailwindcss init -p
-      printf %s "declare module '*.css'" >> next-env.d.ts
+      npx tailwindcss init -p && echo -e "declare module '*.css'" >> next-env.d.ts
 
 vscode:
   extensions:
