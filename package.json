@@ -2,9 +2,8 @@
   "name": "gitpod-typescript",
   "version": "0.0.0",
   "description": "GitPod for Typescript",
-  "repository": "https://github.com/react-if/gitpod-typescript.git",
+  "repository": "https://github.com/react-if/nexts",
   "author": "chlbri <bri_lvi@icloud.com>",
-  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
