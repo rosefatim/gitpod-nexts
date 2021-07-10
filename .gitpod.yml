@@ -8,7 +8,7 @@ tasks:
       yarn add -D jest-cucumber
       yarn add -D @types/react @types/node
       yarn add -D postcss@latest tailwindcss@latest autoprefixer@latest
-      yarn add next react react-dom  && echo -e "declare module '*.css'" >> next-env.d.ts
+      yarn add next react react-dom  && echo -e "declare module '*.css'" >> global.d.ts
       yarn add nanoid
       npx tailwindcss init -p
 
