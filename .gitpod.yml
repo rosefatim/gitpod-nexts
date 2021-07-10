@@ -6,12 +6,14 @@ tasks:
 
   - name: install all dependencies
     init: |
-      yarn add -D typescript
-      yarn add -D @typescript-eslint/eslint-plugin
-      yarn add -D @typescript-eslint/parser
-      yarn add -D eslint
-      yarn add -D jest-cucumber
+      yarn add -D typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint
+      yarn add -D  jest-cucumber
+      yarn add -D @types/react @types/node
+      yarn add -D postcss@latest tailwindcss@latest autoprefixer@latest
+      yarn add next react react-dom
+      yarn add nanoid
       yarn
+      npx tailwindcss init -p
 
 vscode:
   extensions:
