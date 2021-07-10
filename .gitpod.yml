@@ -12,6 +12,7 @@ tasks:
       yarn add nanoid
       yarn
       npx tailwindcss init -p
+      echo -e "\n declare module '*.css'" >> next-env.d.ts
 
 vscode:
   extensions:
