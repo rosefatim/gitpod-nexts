@@ -1,5 +1,6 @@
 # package.json repo à changer
 # Install Cucumber extension strongly recommended.....
+# Install Commit message editor.....
 
 tasks:
   - name: install all dependencies
