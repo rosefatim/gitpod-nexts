@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
     return {...initialProps};
   }
 
-  render():JSX.Element {
+  render(): JSX.Element {
     return (
       <Html>
         <Head>
