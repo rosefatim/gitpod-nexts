@@ -10,6 +10,6 @@
     "down": "kill $(sudo lsof -t -i:3000)",
     "prettier": "prettier --write App.tsx \"**/*.{ts,tsx}\"",
     "eslint": "eslint \"{src/**/*,App}.{ts,tsx}\"",
-    "eslint-fix": "yarn run eslint -- --fix"
+    "eslint-fix": "yarn run eslint --fix"
   }
 }
