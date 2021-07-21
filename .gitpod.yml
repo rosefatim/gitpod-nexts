@@ -6,7 +6,7 @@ tasks:
   - name: install all dependencies
     init: |
       npm install -g ts-node
-      yarn add -D typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-next
+      yarn add -D typescript prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-next
       yarn add -D jest-cucumber vercel
       yarn add -D @types/react @types/node postcss@latest tailwindcss@latest autoprefixer@latest
       yarn add next react react-dom
